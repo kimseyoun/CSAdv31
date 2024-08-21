@@ -14,6 +14,12 @@ namespace CSAdv
             this.Value = value;
         }
     }
+    class WantedTest<T, U>
+        where T : IComparable
+        where U : IComparable, IDisposable
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
